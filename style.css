@@ -1,0 +1,63 @@
+body {
+   background: url("Assets/Images/Untitled-1@0\,75x.png")
+}
+
+#heading {
+    font-family: 'Pacifico', cursive;
+    color: brown;
+    font-size: 30px;
+    background-color: white;
+    width: 100%;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: brown;
+    padding: 15px;
+    margin-bottom: 20px;
+    display:flex;
+    text-align: center
+}
+h1{
+    text-align: center
+}
+
+#headpics{
+    display: flex;
+}
+
+.col-sm-4 {
+    border-style: dotted;
+    border-width: 3px;
+    border-color: white;
+    background-color: brown;
+    color: white;
+    line-height: auto;
+    height: 400px;
+    
+
+}
+
+.row{
+    text-align: center
+}
+
+.picture{
+    position: relative;
+    top: 30px;
+    border-style: outset;
+    border-color:white;
+    border-width: 10px;
+    background-color: brown
+}
+
+#end {
+    text-align: center;
+    border-style: dotted;
+    border-width: 3px;
+    border-color:white;
+    width: 50%;
+    margin:auto;
+    background-color: brown;
+    font-family: 'Bungee Inline', cursive;
+    color: white;
+
+}

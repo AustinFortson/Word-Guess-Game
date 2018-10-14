@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hangman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="Assets/Javascript/game.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+<body>
+    <!--Head Title-->
+    <div id="heading">
+        <div class="headpics">
+              <img src="Assets/Images/blackfuzzcroc.jpg" width="90px" height="50px">
+          </div>
+        <div class="headpics">
+              <img src="Assets/Images/redcroc.jpg" width="90px" height="50px">
+          </div>
+        <div class="headpics">
+              <img src="Assets/Images/blitzenIII.jpg" width="90px" height="50px">
+          </div>
+        <div class="headpics">
+              <img src="Assets/Images/mammoth.jpg" width="90px" height="50px">
+          </div>
+        <div class="headpics">
+              <img src="Assets/Images/yukon.jpg" width="90px" height="50px">
+          </div>
+        <h1>Hangman Crocodile Style</h1>
+        <div class="headpics">
+            <img src="Assets/Images/firecroc.jpg" width="90px" height="50px">
+        </div>
+        <div class="headpics">
+            <img src="Assets/Images/luxe.jpg" width="90px" height="50px">
+        </div>
+        <div class="headpics">
+            <img src="Assets/Images/swiftwater.jpg" width="90px" height="50px">
+        </div>
+        <div class="headpics">
+            <img src="Assets/Images/realtree.jpg" width="90px" height="50px">
+        </div>
+        <div class="headpics">
+            <img src="Assets/Images/modi.jpg" width="90px" height="50px">
+        </div>
+    </div>
+
+    <!--Congrats at end game-->
+    <div id="end">
+        <script> 
+        document.write("Good job the word was " + currentword );
+        </script>
+    </div>
+    
+
+    <!--Game-->
+    <div class="container">
+            <!--Blank Side Left-->
+            <div class="row">
+              <div class="col-sm-2">
+                
+            <!--Picture Side-->
+              </div>
+              <div class="col-sm-4">
+                <img src="Assets/Images/greencroc.jpg" class="picture" height="150px" width="300px">           
+                </div>
+            <!--Games Side-->
+              <div class="col-sm-4">
+                <h4>Press Any Key To Get Started!</h2>
+                <h5>Total Wins</h5>
+                <h6 id="totalwins"></h6>
+                <h5>Current Word</h5>
+                <h6><script>document.write(answer.join(" "))</script></h6>
+                <h5>Guesses Left</h5>
+                <h6><script>document.write(remainingLetters)</script></h6>
+                <h5>Letters Guessed</h5>
+                
+              </div>
+            <!--Blank Side Right-->
+              <div class="col-sm-2">
+                
+              </div>
+            </div>
+          </div>
+ 
+
+
+ 
+</body>
+</html>
